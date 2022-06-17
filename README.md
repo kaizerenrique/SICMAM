@@ -1,4 +1,4 @@
-<p align="center"><a href="http://sqsystemca.com/" target="_blank"><img src="https://drive.google.com/uc?export=download&id=11zBXwlMIKiBiJ_JVkXBPEMQlW_AjqNJ1" width="400"></a></p>
+<p align="center"><a href="http://sqsystemca.com/" target="_blank"><img src="https://drive.google.com/uc?export=download&id=1IMV8Cy3MAP-N_FSw9PoYMhvL2sbRRiel" width="400"></a></p>
 
 # SICMAM
 
