@@ -3,7 +3,7 @@
         <div class="max-w-full mx-auto sm:px-6 lg:px-8">
             <div class="overflow-hidden">
                 <div class="bg-white mx-4 mb-8 rounded-xl shadow-xl">
-                    <h1>hola</h1>
+                    <livewire:aeronav/>
                 </div>
             </div>
         </div>
