@@ -35,13 +35,13 @@
                               <div class="bg-blue-300 w-1/3 rounded-xl shadow-lg flex items-center justify-around hover:bg-blue-100">
                                 <div class="text-center">
                                   <h1 class="text-4xl font-bold text-blue-900">2</h1>
-                                  <span class="text-blue-800 text-xl">Aviones</span>
+                                  <span class="text-blue-800 text-xl">Helicópteros</span>
                                 </div>
                               </div>
                               <div class="bg-rose-300 w-1/3 rounded-xl shadow-lg flex items-center justify-around hover:bg-rose-100">
                                 <div class="text-center">
                                   <h1 class="text-4xl font-bold text-rose-900">2</h1>
-                                  <span class="text-rose-800 text-xl">Aviones</span>
+                                  <span class="text-rose-800 text-xl">Personal</span>
                                 </div>
                               </div>
                             </div>
