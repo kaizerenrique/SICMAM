@@ -9,6 +9,6 @@ class Aeronave extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['nombre', 'imagen', 'tipo', 'fabricante', 'primer_vuelo', 'introducido', 'retirado', 'estado', 'usuario', 'otros_usuarios' ];
+    protected $fillable = ['nombre', 'imagen', 'tipo', 'matricula', 'fabricante', 'primer_vuelo', 'introducido', 'estado', 'usuario', 'otros_usuarios' ];
 }
 

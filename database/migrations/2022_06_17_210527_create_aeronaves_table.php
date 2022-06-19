@@ -18,11 +18,12 @@ return new class extends Migration
             $table->string('nombre');
             $table->string('imagen', 2048)->nullable();
             $table->string('tipo');
+            $table->string('matricula');
             $table->string('fabricante');
-            $table->time('primer_vuelo')->nullable();
-            $table->time('introducido')->nullable();
-            $table->time('retirado')->nullable();
+            $table->dateTime('primer_vuelo')->nullable();
+            $table->dateTime('introducido')->nullable();
             $table->string('estado');// activo - mantenimiento - desincorporado 
+            $table->dateTime('mantenimientoProgramado')->nullable();
             $table->string('usuario');
             $table->string('otros_usuarios')->nullable();
             $table->timestamps();
