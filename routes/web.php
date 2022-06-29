@@ -24,9 +24,21 @@ Route::middleware(['auth:sanctum',config('jetstream.auth_session'),'verified'])-
 });
 
 Route::middleware(['auth:sanctum',config('jetstream.auth_session'),'verified'])->group(function () {
-    Route::get('/personal', function () {
-        return view('personal');
+    Route::get('/admin/personal', function () {
+        return view('admin/personal');
     })->name('personal');
+});
+
+Route::middleware(['auth:sanctum',config('jetstream.auth_session'),'verified'])->group(function () {
+    Route::get('/admin/roles', function () {
+        return view('admin/roles');
+    })->name('roles');
+});
+
+Route::middleware(['auth:sanctum',config('jetstream.auth_session'),'verified'])->group(function () {
+    Route::get('/admin/permisos', function () {
+        return view('admin/permisos');
+    })->name('permisos');
 });
 
 Route::middleware(['auth:sanctum',config('jetstream.auth_session'),'verified'])->group(function () {
