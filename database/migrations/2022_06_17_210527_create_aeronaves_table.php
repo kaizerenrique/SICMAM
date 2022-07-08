@@ -24,6 +24,8 @@ return new class extends Migration
             $table->dateTime('introducido')->nullable();
             $table->string('estado');// activo - mantenimiento - desincorporado 
             $table->dateTime('mantenimientoProgramado')->nullable();
+            $table->decimal('horasvuelo', 6, 2)->nullable();
+            $table->decimal('horasvuelorestantes', 6, 2)->nullable();
             $table->string('usuario');
             $table->string('otros_usuarios')->nullable();
             $table->timestamps();

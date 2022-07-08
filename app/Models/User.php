@@ -60,4 +60,10 @@ class User extends Authenticatable
     protected $appends = [
         'profile_photo_url',
     ];
+
+    //Registro de horas de vuelo
+    public function registrodehoras()
+    {
+        return $this->hasMany(Horasvuelo::class);
+    }
 }
